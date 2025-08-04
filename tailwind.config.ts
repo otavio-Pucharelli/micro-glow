@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Service status colors
+				service: {
+					up: 'hsl(var(--service-up))',
+					down: 'hsl(var(--service-down))',
+					warning: 'hsl(var(--service-warning))',
+					unknown: 'hsl(var(--service-unknown))'
+				},
+				// Dashboard specific
+				dashboard: {
+					bg: 'hsl(var(--dashboard-bg))',
+				},
+				panel: {
+					bg: 'hsl(var(--panel-bg))',
+					border: 'hsl(var(--panel-border))'
+				},
+				text: {
+					primary: 'hsl(var(--text-primary))',
+					secondary: 'hsl(var(--text-secondary))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
